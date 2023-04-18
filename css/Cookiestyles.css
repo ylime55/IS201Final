@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color:#c3b1e1 
+}
+a{
+    color: gray;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}
+h1{
+    font-family: times;
+    font-size: 50px;
+}
+
+/*Page Layout*/
+.footer{
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: gray;
+    text-align: center;
+    padding-top: 15px; 
+}
+.bodySection{
+    display: flex;
+    justify-content: space-around; 
+}
+#picture{
+    width: 500px
+}
+#paragraph{
+    width: 500px;
+}
+#section2Right{
+    text-align: left;
+    width: 500px;
+}
+#pageanchor{
+    border-bottom: solid;
+    
+}
